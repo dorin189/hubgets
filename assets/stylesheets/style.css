@@ -1,0 +1,312 @@
+/*@import "breakpoint";*/
+/* line 2, ../sass/base/_standard.scss */
+html, body {
+  margin: 0;
+  background-color: #fff !important;
+  font-family: 'Raleway', Helvetica, Arial,sans-serif;
+}
+
+/* line 9, ../sass/base/_standard.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 15, ../sass/base/_standard.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 24, ../sass/base/_standard.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 28, ../sass/base/_standard.scss */
+.hide {
+  display: none;
+}
+
+/* line 31, ../sass/base/_standard.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 35, ../sass/base/_standard.scss */
+button {
+  cursor: pointer;
+}
+
+/* line 2, ../sass/sections/_signup.scss */
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 6, ../sass/sections/_signup.scss */
+.bg-nav {
+  background-color: #fff;
+  border: none;
+}
+/* line 9, ../sass/sections/_signup.scss */
+.bg-nav .container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* line 15, ../sass/sections/_signup.scss */
+.navbar-collapse {
+  border-top: none;
+}
+
+/* line 19, ../sass/sections/_signup.scss */
+.navbar-toggle {
+  margin-top: 28px;
+  border-color: #20a6da !important;
+}
+/* line 22, ../sass/sections/_signup.scss */
+.navbar-toggle .icon-bar {
+  background-color: #20a6da !important;
+}
+
+/* line 26, ../sass/sections/_signup.scss */
+.navbar-nav {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  /* line 26, ../sass/sections/_signup.scss */
+  .navbar-nav {
+    display: block;
+    margin-top: 24px;
+  }
+  /* line 32, ../sass/sections/_signup.scss */
+  .navbar-nav li a {
+    color: #777 !important;
+  }
+  /* line 34, ../sass/sections/_signup.scss */
+  .navbar-nav li a:hover {
+    color: #2091bd !important;
+  }
+}
+
+/* line 43, ../sass/sections/_signup.scss */
+.navbar-brand {
+  margin-top: 20px;
+  padding: 0;
+  margin-left: 0 !important;
+}
+/* line 48, ../sass/sections/_signup.scss */
+.navbar-brand img {
+  width: 100%;
+  max-width: 153px;
+}
+
+/* line 54, ../sass/sections/_signup.scss */
+.subheader {
+  background-color: #20a6da;
+  padding: 70px 0 120px 0;
+}
+/* line 58, ../sass/sections/_signup.scss */
+.subheader .first-box h2 {
+  font-size: 38px;
+  line-height: 1.2em;
+  font-weight: 600;
+  color: #fff;
+}
+/* line 64, ../sass/sections/_signup.scss */
+.subheader .first-box p {
+  color: #99e1f9;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+/* line 72, ../sass/sections/_signup.scss */
+.circle-box {
+  height: 120px;
+  position: relative;
+}
+
+/* line 78, ../sass/sections/_signup.scss */
+.has-error .form-control {
+  background-color: #fbe8e9;
+  color: #A94442;
+}
+
+/* line 84, ../sass/sections/_signup.scss */
+label ~ .form-control-feedback {
+  top: 30px !important;
+}
+
+/* line 88, ../sass/sections/_signup.scss */
+.signup-process {
+  background-color: #f6f7f8;
+  padding-bottom: 240px;
+}
+/* line 91, ../sass/sections/_signup.scss */
+.signup-process .circle-box {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  margin-top: -60px;
+  left: 0;
+  right: 0;
+  box-shadow: 0 5px 5px #CCC;
+}
+/* line 101, ../sass/sections/_signup.scss */
+.signup-process .circle-box .card-icon {
+  top: 33px;
+  left: 33px;
+}
+/* line 106, ../sass/sections/_signup.scss */
+.signup-process .signup-box {
+  background-color: #fff;
+  padding: 110px 70px 80px 70px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+/* line 114, ../sass/sections/_signup.scss */
+.signup-process .signup-box label {
+  color: #777;
+  font-size: 14px;
+}
+/* line 118, ../sass/sections/_signup.scss */
+.signup-process .signup-box .form-group {
+  margin-bottom: 30px;
+}
+/* line 122, ../sass/sections/_signup.scss */
+.signup-process .signup-box input {
+  height: 46px;
+  border-radius: 4px;
+  padding-left: 16px;
+}
+/* line 127, ../sass/sections/_signup.scss */
+.signup-process .signup-box .btn-register {
+  background-color: #20a6da;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  height: 46px;
+  width: 170px;
+  font-size: 18px;
+  transition: all 0.4s;
+}
+/* line 136, ../sass/sections/_signup.scss */
+.signup-process .signup-box .btn-register:hover {
+  background-color: transparent;
+  border: 1px solid #20a6da;
+  color: #20a6da;
+}
+/* line 144, ../sass/sections/_signup.scss */
+.signup-process .space {
+  margin-bottom: 30px;
+}
+/* line 148, ../sass/sections/_signup.scss */
+.signup-process .advantage {
+  float: left;
+  margin-right: 20px;
+}
+/* line 152, ../sass/sections/_signup.scss */
+.signup-process p {
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 157, ../sass/sections/_signup.scss */
+.signup-process .extra-space {
+  margin-top: 50px;
+}
+/* line 160, ../sass/sections/_signup.scss */
+.signup-process .phone-number {
+  font-size: 16px;
+  font-family: Helvetica;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 166, ../sass/sections/_signup.scss */
+.signup-process .email {
+  color: #20a6da;
+  font-size: 16px;
+}
+
+/* line 172, ../sass/sections/_signup.scss */
+footer {
+  background-color: #0873a0;
+}
+/* line 174, ../sass/sections/_signup.scss */
+footer .container-links {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* line 178, ../sass/sections/_signup.scss */
+footer .hubgets-footer {
+  display: inline-block;
+  font-size: 25px;
+  margin-right: 10px;
+}
+/* line 183, ../sass/sections/_signup.scss */
+footer h4 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+/* line 189, ../sass/sections/_signup.scss */
+footer ul {
+  padding-left: 0;
+}
+/* line 191, ../sass/sections/_signup.scss */
+footer ul li {
+  list-style-type: none;
+  margin-bottom: 12px;
+}
+/* line 197, ../sass/sections/_signup.scss */
+footer a {
+  color: #9cc7d9;
+  transition: all .2s;
+}
+/* line 200, ../sass/sections/_signup.scss */
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 203, ../sass/sections/_signup.scss */
+footer a:hover img {
+  opacity: 1;
+}
+/* line 207, ../sass/sections/_signup.scss */
+footer a img {
+  width: 100%;
+  max-width: 20px;
+  opacity: 0.6;
+  margin-right: 10px;
+}
+/* line 215, ../sass/sections/_signup.scss */
+footer .container-copyrights {
+  padding-bottom: 24px;
+}
+/* line 217, ../sass/sections/_signup.scss */
+footer .container-copyrights .copyrights {
+  color: #9cc7d9;
+}
+
+/* line 224, ../sass/sections/_signup.scss */
+.help-block {
+  display: block;
+  float: right;
+  background-color: #e97474;
+  height: 36px;
+  padding: 10px;
+  border-radius: 4px;
+  color: white !important;
+  margin-top: 8px;
+}

@@ -1,0 +1,235 @@
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.bg-nav {
+	background-color: $white;
+	border: none;
+	.container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+.navbar-collapse {
+	border-top: none;
+}
+
+.navbar-toggle {
+	margin-top: 28px;
+	border-color: $blue !important;
+	.icon-bar {
+		background-color: $blue !important;
+	}
+}
+.navbar-nav {
+	display: none;
+	@media only screen and (max-width: 768px) {
+		display: block;
+		margin-top: 24px;
+		li {
+			a {
+				color: $boulder !important;
+				&:hover {
+					color: $blue-hover !important;
+				}
+			}
+		}
+	}
+}
+
+
+.navbar-brand {
+	margin-top: 20px;
+	padding: 0;
+	margin-left: 0 !important;
+
+	img {
+		width: 100%;
+		max-width: 153px;
+	}
+}
+
+.subheader {
+	background-color: $blue;
+	padding: 70px 0 120px 0;
+	.first-box {
+		h2 {
+			font-size: 38px;
+    		line-height: 1.2em;
+    		font-weight: 600;
+    		color: $white;
+		}
+		p {
+			color: $sail;
+			font-size: 16px;
+			margin-bottom: 4px;
+		}
+	}
+}
+
+.circle-box {
+	height: 120px;
+	position: relative;
+}
+
+.has-error {
+	.form-control {
+		background-color: $pink;
+		color: $blossom;
+	}
+}
+
+label~.form-control-feedback {
+	top: 30px !important;
+}
+
+.signup-process {
+	background-color: $gray;
+	padding-bottom: 240px;
+	.circle-box {
+	    background-color: $white;
+	    border-radius: 50%;
+	    height: 120px;
+	    width: 120px;
+	    position: absolute;
+	   	margin-top: -60px;
+    	left: 0;
+    	right: 0;
+    	box-shadow: 0 5px 5px #CCC;
+		.card-icon {
+			top: 33px;
+			left: 33px;
+		}
+	}
+	.signup-box {
+		background-color: $white; 
+		padding: 110px 70px 80px 70px;
+		border-bottom-left-radius: 4px;
+		border-bottom-right-radius: 4px;
+		border-left: 1px solid $gallery;
+		border-right: 1px solid $gallery;
+		border-bottom: 1px solid $gallery;
+		label {
+			color: $boulder;
+			font-size: 14px;
+		}
+		.form-group {
+			margin-bottom: 30px;
+
+		}
+		input {
+			height: 46px;
+			border-radius: 4px;
+			padding-left: 16px;
+		}
+		.btn-register {
+			background-color: $blue;
+			color: $white;
+			text-transform: uppercase;
+			border-radius: 4px;
+			height: 46px;
+			width: 170px;
+			font-size: 18px;
+			transition: all 0.4s;
+			&:hover {
+				background-color: transparent;
+				border: 1px solid $blue;
+				color: $blue;
+			}
+		}
+	}
+
+	.space {
+		margin-bottom: 30px;
+	}
+
+	.advantage {
+		float: left;
+		margin-right: 20px;
+	}
+	p {
+		line-height: 24px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.extra-space {
+		margin-top: 50px;
+	}
+	.phone-number {
+		font-size: 16px;
+		font-family: Helvetica;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.email {
+		color: $blue;
+		font-size: 16px;
+	}
+}
+
+footer {
+	background-color:#0873a0;
+	.container-links {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.hubgets-footer {
+		display: inline-block;
+		font-size: 25px;
+		margin-right: 10px;
+	}
+	h4 {
+		text-transform: uppercase;
+		color: $white;
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+	ul {
+		padding-left: 0;
+		li {
+			list-style-type: none;
+			margin-bottom: 12px;
+		}
+	}
+
+	a {
+		color: $light;
+		transition: all .2s;
+		&:hover {
+			color: $white;
+			text-decoration: none;
+			img {
+				opacity: 1;
+			}
+		}
+		img {
+			width: 100%;
+			max-width: 20px;
+			opacity: 0.6;
+			margin-right: 10px;
+		}
+	}
+
+	.container-copyrights {
+		padding-bottom: 24px;
+		.copyrights {
+			color: $light;
+		}
+	}
+
+}
+
+.help-block {
+	display: block;
+	float: right;
+	background-color: #e97474;
+	height: 36px;
+	padding: 10px;
+	border-radius: 4px;
+	color: white !important;
+	margin-top: 8px;
+}
+
+

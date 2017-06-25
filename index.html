@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hubgets - Instant communication for business</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous">
+
+    </script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css"/>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="assets/javascript/signup.js"></script>
+    <script type="text/javascript" src="assets/javascript/bootstrap-validator.js"></script>
+</head>
+<body>
+<!--Nav -->
+<nav class="navbar navbar-inverse bg-nav">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://www.hubgets.com/">
+                <img src="images/logo-hubgets-simple@2x.png" alt="Hubgets"/>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="https://www.hubgets.com/company/about">About us</a></li>
+                <li><a href="https://www.hubgets.com/blog/">Blog</a></li>
+                <li><a href="https://www.hubgets.com/jobs/">We are hiring</a></li>
+                <li><a href="https://www.hubgets.com/company/terms">Terms of Service</a></li>
+                <li><a href="https://www.hubgets.com/company/contact">Contact us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="subheader">
+    <div class="container first-box">
+        <div class="col-lg-12 col-md-12 text-center">
+            <h2>Create organization</h2>
+            <p>Small or large, any team will increase productivity with Hubgets.</p>
+            <p>It allows to filter noise and focus on results.</p>
+        </div>
+    </div>
+</section>
+
+<section class="signup-process">
+    <div class="container">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="circle-box center-block">
+                <img src="images/card.png" class="glyphicon card-icon"/>
+            </div>
+            <div class="signup-box">
+                <form id="signupForm" method="post">
+                    <div class="form-group row">
+                        <div class="col-lg-6 col-xs-6">
+                            <label for="first_name">First name</label>
+                            <input class="form-control" name="first_name" id="first_name" type="text" />
+                        </div>
+                        <div class="col-lg-6 col-xs-6">
+                            <label for="last_name">Last name</label>
+                            <input class="form-control" name="last_name" id="last_name" type="text" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Company</label>
+                        <input class="form-control" name="company" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label>E-mail address</label>
+                        <input class="form-control" name="email_address" type="email" />
+                        <a href="#" data-toggle="popover" data-content="messages"></a>
+                    </div>
+                    <button type="submit" class="btn btn-register" >Register</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0 " style="padding-top: 110px;">
+            <div class="row space">
+                <div class="advantage"><img src="images/communication.png" class="glyphicon"/></div>
+                <p>Centralizes communication channels and reduces overhead.</p>
+            </div>
+            <div class="row space">
+                <div class="advantage"><img src="images/instant_messaging.png" class="glyphicon"/></div>
+                <p>Brings together instant messaging, voice and video communication in the browser.</p>
+            </div>
+            <div class="row space">
+                <div class="advantage"><img src="images/captures_information.png" class="glyphicon"/></div>
+                <p>Captures information across the organization, retains the knowledge, analyzes and improves it.</p>
+            </div>
+            <div class="row extra-space">
+                <div class="advantage"><img src="images/help.png" class="glyphicon"/></div>
+                <div class="phone-number">+1 845 894 123</div>
+                <a class="email" href="mailto:help@hubgets.com" target="_top">help@hubgets.com</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer-->
+<footer>
+    <div class="container container-links">
+        <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
+            <a href="#">
+                <div class="hubgets-footer" style="display: inline-block">hubgets</div>
+                <img src="images/bubbles-white@2x.png" alt="Hubgets">
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <h4>Our company</h4>
+            <ul>
+                <li><a href="https://www.hubgets.com/company/about">About us</a></li>
+                <li><a href="https://www.hubgets.com/blog/">Blog</a></li>
+                <li><a href="https://www.hubgets.com/jobs/">We are hiring</a></li>
+                <li><a href="https://www.hubgets.com/company/terms">Terms of Service</a></li>
+                <li><a href="https://www.hubgets.com/company/contact">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+            <h4>Hubgets</h4>
+            <ul>
+                <li><a href="#">Join the program</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Current status</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <h4>Social</h4>
+            <ul>
+                <li><a href="https://twitter.com/hubgets" target="_blank"><img src="images/twitter@2x.png" alt="Twitter" />Twitter</a></li>
+                <li><a href="https://www.youtube.com/channel/UCq3OM4g1oYSbR0GWQYCEuBQ" target="_blank"><img src="images/youtube@2x.png" alt="Youtube" />Youtube</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container container-copyrights">
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <div class="copyrights">&#169; Copyrights <span id="currentYear"></span> Hubgets, Inc</div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
